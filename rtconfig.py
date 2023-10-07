@@ -10,7 +10,7 @@ CROSS_TOOL  = 'gcc'
 
 if  CROSS_TOOL == 'gcc':
     PLATFORM    = 'gcc'
-    EXEC_PATH   = r'D:/Program Files (x86)/UCCHIP_IDE/riscv-gnu-toolchain/bin/'
+    EXEC_PATH   = r'C:/Program Files (x86)/UCCHIP_IDE/riscv-gnu-toolchain/bin'
 else:
     print('Please make sure your toolchains is GNU GCC!')
     exit(0)
